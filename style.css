@@ -1,0 +1,21 @@
+
+html {
+	padding:20px;
+}
+
+.border-rounded {
+	border-style: solid;
+	border color: #aaaaaa;
+	border-radius: 25px;
+	box-shadow: 5px 10px #888888;
+}
+
+.text-main {
+	background-color: #aaaaaa;
+	padding: 10px;
+}
+
+.bio-table {
+	background-color: #aaaaaa;
+	padding: 10px;
+}
