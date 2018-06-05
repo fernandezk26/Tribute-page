@@ -1,21 +1,85 @@
 
-html {
+#main {
 	padding:20px;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.superMario {
+	-webkit-animation-duration: 2s;
+  	-webkit-animation-delay:.5s;
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 5em;
+	color: white;
+	box-shadow: 5px 5px 5pc black;
+	text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	background: linear-gradient(rgba(20,20,20,0.1), 
+  	rgba(20, 20, 20, 0.4));
 }
 
 .border-rounded {
 	border-style: solid;
 	border color: #aaaaaa;
 	border-radius: 25px;
-	box-shadow: 5px 10px #888888;
+	box-shadow: 5px 10px black;
+
 }
 
 .text-main {
-	background-color: #aaaaaa;
 	padding: 10px;
+	font-size: 20px;
+	background-color: #0Bef74;
 }
 
 .bio-table {
-	background-color: #aaaaaa;
-	padding: 10px;
+	background-color: #97E0FB;
+	padding: 20px;
+	margin-top: 50px;
 }
+
+.preface {
+	margin: 20px;
+}
+
+.card {
+	margin: 0 auto;
+	border-style: solid;
+	border-color: black;
+	width: 50%;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-div {
+	max-width: 50%;
+}
+
+.subtitle {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.5em;
+	text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	color: white;
+	margin-top: 50px;
+}
+
+#img-caption {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
