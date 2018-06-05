@@ -14,12 +14,13 @@
     margin-right: auto;
     width: 50%;
     margin-top: 50px;
+    -webkit-animation-duration: 1.5s;
 }
 
-.superMario {
+/*.superMario {
 	-webkit-animation-duration: 2s;
 }
-
+*/
 
 /*Page text and formatting properties*/
 .subtitle {
